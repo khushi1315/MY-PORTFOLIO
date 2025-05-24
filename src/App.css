@@ -222,7 +222,7 @@ background: linear-gradient(135deg, #452c65 60%, #010001 100%) !important;
 
 .profile-pic-border {
   border: 4px solid #a259f7;
-  border-radius: 50%;
+  border-radius: 37%;
   width: 270px;
   height: 270px;
   display: flex;
@@ -236,7 +236,7 @@ background: linear-gradient(135deg, #452c65 60%, #010001 100%) !important;
 .profile-pic {
   width: 240px;
   height: 240px;
-  border-radius: 50%;
+  border-radius: 41%;
   object-fit: cover;
 }
 
