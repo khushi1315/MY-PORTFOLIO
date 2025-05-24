@@ -202,7 +202,7 @@ function ProjectCard({ project }) {
           </div>
         </motion.div>
       )}
-      
+
       <div className="expand-indicator">{expanded ? "View less ▲" : "View more ▼"}</div>
     </motion.div>
   );
@@ -229,7 +229,7 @@ function App() {
               <ScrollLink to="codingprofiles" smooth duration={500} className="nav-link" activeClass="active" spy>CODING PROFILES</ScrollLink>
               <ScrollLink to="contact" smooth duration={500} className="nav-link" activeClass="active" spy>CONTACT</ScrollLink>
               <Nav.Link as="button" onClick={() => setDark((d) => !d)} style={{ background: "none", border: "none" }}>
-                {dark ? "🌙" : "☀️"}
+                {dark ? "TOGGLE MODE 🌙" : "TOGGLE MODE ☀️"}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
