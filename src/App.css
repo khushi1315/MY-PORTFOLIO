@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Noto Serif", serif;
   background: linear-gradient(135deg, #2d085e 0%, #3f206e 100%);
   color: #fff;
   min-height: 100vh;
   overflow-x: hidden;
+  
 }
-
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .theme-dark {
-  background: linear-gradient(135deg, #2d085e 0%, #3f206e 100%);
+  background: linear-gradient(135deg, #22024c 0%, #3f206e 100%);
   color: #fff;
 }
 
@@ -42,10 +48,10 @@ body {
 
 }
 .theme-dark .navbar {
-  background: linear-gradient(135deg, #2d085e 0%, #3f206e 100%) !important;
+  background: linear-gradient(135deg, #69518e 31%, #15032d 51%) !important
 }
 .theme-light .navbar{
-  background: #f5f6fa !important; /* or use your gradient if you prefer */
+   background: linear-gradient(135deg, #d3d6e5 -15%, #7b86a8 57%) !important;
 }
 .theme-dark .navbar .nav-link,
 .theme-dark .navbar .navbar-brand {
@@ -55,17 +61,29 @@ body {
 .theme-light .navbar .navbar-brand {
   color: #222 !important;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+
+.theme-dark, .theme-dark html, .theme-dark body {
+background: linear-gradient(135deg, #452c65 60%, #010001 100%) !important;
+}
+
+.theme-light, .theme-light html, .theme-light body {
+  background: linear-gradient(135deg, #d3d6e5 -15%, #243361 57%) !important;
+}
 
 .navbar .navbar-brand {
   font-weight: bold;
   font-size: 1.35rem;
   letter-spacing: 0.13em;
   color: #fff !important;
-}
-
-.navbar .navbar-toggler {
-  border: none;
-  outline: none;
 }
 
 
@@ -76,9 +94,8 @@ body {
   cursor: pointer;
   transition: color 0.2s;
   padding-bottom: 4px;
-  border-bottom: 2px solid transparent;
-  margin-right: 8px;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
 }
 
 .navbar .nav-link:hover,
@@ -119,10 +136,33 @@ body {
   padding: 48px;
   border-radius: 24px;
   box-sizing: border-box;
-  background: #23125a;
+  background: #9290b0;
   box-shadow: 0 4px 40px -8px rgba(0,0,0,0.12);
 }
+.theme-dark .about-container,
+.theme-dark .skills-container,
+.theme-dark .projects-container,
+.theme-dark .experience-container,
+.theme-dark .certifications-container,
+.theme-dark .codingprofiles-container,
+.theme-dark .contact-container {
+  background: #1f173b;
+  color: #fff;
+  
+}
+.theme-dark .skill-group h3{
+  color:#b4a2df;
+}
+.theme-dark .project-card{
+  background-color: #60698a;
+}
 
+.theme-dark .timeline-dot,
+.theme-dark .timeline-content .company,
+.theme-dark .timeline .period
+{
+ color:  #b4a2df;
+}
 /* Home Section */
 .home-section .content {
   display: flex;
@@ -205,6 +245,9 @@ body {
   font-size: 2.2rem;
   margin-bottom: 18px;
 }
+.about-container p{
+  font-size: x-large;
+}
 
 /* Skills Section */
 .theme-light .skills-container,
@@ -223,7 +266,7 @@ body {
 }
 .skill-group h3 {
   margin-bottom: 12px;
-  color: #a259f7;
+  color: #250f57;
   font-size: 1.2rem;
 }
 .skill-group ul {
@@ -250,7 +293,7 @@ body {
   gap: 32px;
 }
 .project-card {
-  background: #23125a;
+  background: #68627c;
   border-radius: 16px;
   padding: 28px 24px 20px 24px;
   color: #fff;
@@ -267,11 +310,12 @@ body {
 }
 .project-card .category {
   font-size: 0.96rem;
-  color: #6a82fb;
+  color: #250f57;
+  font-weight: bold;
 }
 .project-card .date {
   font-size: 0.93rem;
-  color: #b48afd;
+  color: #250f57;
   float: right;
 }
 .project-desc {
@@ -286,15 +330,15 @@ body {
 }
 .project-card .links a {
   margin-right: 18px;
-  color: #a259f7;
+  color: #250f57;
   text-decoration: underline;
 }
 .project-card .expand-indicator {
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  font-size: 1.2rem;
-  color: #6a82fb;
+ position: relative;
+    right: 20px;
+    bottom: -3px;
+    font-size: 1.2rem;
+    color: #181d38;
 }
 
 /* Experience Section */
@@ -302,7 +346,7 @@ body {
   max-width: 900px;
 }
 .timeline {
-  border-left: 3px solid #a259f7;
+  border-left: 3px solid #250f57;
   margin-left: 18px;
   padding-left: 32px;
 }
@@ -317,20 +361,20 @@ body {
   top: 8px;
   width: 18px;
   height: 18px;
-  background: #6a82fb;
+  background: #252c52;
   border-radius: 50%;
   border: 3px solid #fff;
 }
 .timeline-content .period {
   font-size: 0.98rem;
-  color: #a259f7;
+  color: #252c52;
 }
 .timeline-content h3 {
   margin: 2px 0 8px 0;
   font-size: 1.1rem;
 }
 .timeline-content .company {
-  color: #6a82fb;
+  color: #252c52;
   font-size: 0.98rem;
 }
 .timeline-content ul {

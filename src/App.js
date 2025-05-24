@@ -5,6 +5,7 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link as ScrollLink } from "react-scroll";
+import { scroller } from "react-scroll";
 
 const skills = {
   Languages: ["Python", "Java", "JavaScript"],
@@ -150,7 +151,7 @@ const codingProfiles = [
     name: "LeetCode",
     link: "https://leetcode.com/u/khushi2507/"
   },
- 
+
 ];
 
 const contacts = [
@@ -164,7 +165,7 @@ const contacts = [
   },
   {
     name: "Email",
-    link: "officialkhushi2024@gmail.com"
+    link: "mailto:officialkhushi2024@gmail.com"
   }
 ];
 
@@ -201,7 +202,8 @@ function ProjectCard({ project }) {
           </div>
         </motion.div>
       )}
-      <div className="expand-indicator">{expanded ? "▲" : "▼"}</div>
+      
+      <div className="expand-indicator">{expanded ? "View less ▲" : "View more ▼"}</div>
     </motion.div>
   );
 }
@@ -248,7 +250,19 @@ function App() {
             <p>
               I’m a second year student seeking front-end developer internship. I am exploring machine learning and have completed a fraud detection project.
             </p>
-            <button className="cta-btn" onClick={() => scroll.scrollTo(window.innerHeight)}>VIEW MY WORK</button>
+            <button
+              className="cta-btn"
+              onClick={() =>
+                scroller.scrollTo("projects", {
+                  duration: 800,
+                  delay: 0,
+                  smooth: "easeInOutQuart"
+                })
+              }
+            >
+              VIEW MY WORK
+            </button>
+
           </div>
           <motion.div
             className="profile-pic-border"
