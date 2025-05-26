@@ -246,10 +246,12 @@ function App() {
         >
           <div className="intro">
             <h1>HI, I'M<br />KHUSHI</h1>
-            <h2>I’M A FRONT-END DEVELOPER</h2>
+            <h2>FRONT-END DEVELOPER | ML ENTHUSIAST</h2>
             <p>
-              I’m a second year student seeking front-end developer internship. I am exploring machine learning and have completed a fraud detection project.
+              I’m a second-year Computer Science & AI student at IGDTUW, actively seeking a front-end development internship. <br />
+              I love building clean, responsive interfaces and recently worked on a fraud detection project while exploring machine learning.
             </p>
+
             <button
               className="cta-btn"
               onClick={() =>
@@ -285,13 +287,16 @@ function App() {
         >
           <h2>About Me</h2>
           <p>
-            Hi! I’m a second-year Computer Science and Artificial Intelligence (CSE-AI) student at IGDTUW, graduating in 2027. I’m deeply passionate about technology and continuously strive to improve my skills, particularly in full-stack development and machine learning.
+            Hi! I’m a second-year Computer Science and Artificial Intelligence (CSE-AI) student at IGDTUW, graduating in 2027. I’m deeply passionate about building real-world solutions using full-stack development, data structures, and machine learning.
 
-            I believe in giving my best to everything I do — I’m the kind of person who can’t leave a task halfway. For instance, while learning machine learning, I realized that building models wasn't enough without a user interface. That drove me to start learning web development, so I could create complete, user-friendly applications end-to-end.
+            Coming from a non-CS background, I had no exposure to coding initially — but with a strong will to learn, I picked up everything through online resources, guidance from seniors, and consistent practice. I believe in mastering one topic at a time and building confidence through depth, not shortcuts.
 
-            Outside of coding, I have a creative side — I love sketching that tought me detail to attention and perfection.
+            For example, while exploring Machine Learning, I realized that just training models wasn’t enough — so I started learning frontend and backend development to build complete, user-focused applications. This drive to “connect all the dots” keeps me motivated to learn and grow every day.
 
-            I’m always looking to grow, collaborate, and take on new challenges that help me evolve both technically and creatively.
+            Outside of tech, I enjoy sketching — it’s taught me the value of patience, attention to detail, and creativity, which I carry into my code as well.
+
+            I'm always looking for opportunities to grow, collaborate, and take on challenges that help me become not just a better developer, but a better thinker.
+
           </p>
         </motion.div>
       </Element>
