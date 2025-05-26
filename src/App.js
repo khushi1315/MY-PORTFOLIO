@@ -246,7 +246,7 @@ function App() {
         >
           <div className="intro">
             <h1>HI, I'M<br />KHUSHI</h1>
-            <h2>FRONT-END DEVELOPER | ML ENTHUSIAST</h2>
+            <h2>Aspiring Front-end Developer & ML Enthusiast</h2>
             <p>
               I’m a second-year Computer Science & AI student at IGDTUW, actively seeking a front-end development internship. <br />
               I love building clean, responsive interfaces and recently worked on a fraud detection project while exploring machine learning.
