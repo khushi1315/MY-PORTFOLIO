@@ -27,6 +27,7 @@ h2{
 .theme-light .skills-container
 .theme-light .projects-container,
 .theme-light .experience-container,
+.theme-light .achievement-container,
 .theme-light .certifications-container,
 .codingprofiles-container,.contact-container {
   color: #fff;
@@ -127,6 +128,7 @@ background: linear-gradient(135deg, #452c65 60%, #010001 100%) !important;
 .skills-container,
 .projects-container,
 .experience-container,
+.achievement-container,
 .certifications-container,
 .codingprofiles-container,
 .contact-container {
@@ -143,6 +145,7 @@ background: linear-gradient(135deg, #452c65 60%, #010001 100%) !important;
 .theme-dark .skills-container,
 .theme-dark .projects-container,
 .theme-dark .experience-container,
+.theme-dark .achievement-container,
 .theme-dark .certifications-container,
 .theme-dark .codingprofiles-container,
 .theme-dark .contact-container {
@@ -343,6 +346,48 @@ background: linear-gradient(135deg, #452c65 60%, #010001 100%) !important;
 
 /* Experience Section */
 .experience-container {
+  max-width: 900px;
+}
+.timeline {
+  border-left: 3px solid #250f57;
+  margin-left: 18px;
+  padding-left: 32px;
+}
+.timeline-card {
+  position: relative;
+  margin-bottom: 36px;
+  padding-left: 18px;
+}
+.timeline-dot {
+  position: absolute;
+  left: -31px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  background: #252c52;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.timeline-content .period {
+  font-size: 0.98rem;
+  color: #252c52;
+}
+.timeline-content h3 {
+  margin: 2px 0 8px 0;
+  font-size: 1.1rem;
+}
+.timeline-content .company {
+  color: #252c52;
+  font-size: 0.98rem;
+}
+.timeline-content ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+
+/* Achievement Section */
+.achievement-container {
   max-width: 900px;
 }
 .timeline {

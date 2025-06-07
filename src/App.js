@@ -122,6 +122,24 @@ const experience = [
     )
   }
 ];
+const achievements = [
+  {
+    period1: "Oct 2024",
+    role1: "GirlScript Summer of Code 2024 Contributor",
+  
+    description1: (
+      <>
+        <ul>
+          <li>Contributed to multiple open-source projects under GSSoC 2024.</li>
+          <li>Improved features, resolved bugs, and enhanced project documentation.</li>
+          <li>Collaborated with teams using GitHub, version control, and agile methodologies.</li>
+          <li>Engaged in code reviews and discussions to improve project quality.</li>
+        </ul>
+      </>
+    ),
+  },
+];
+
 
 const certifications = [
   {
@@ -340,6 +358,24 @@ function App() {
                   <span className="period">{exp.period}</span>
                   <h3>{exp.role} <span className="company">@ {exp.company}</span></h3>
                   <div>{exp.description}</div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </Element>
+      {/* Achievement Section */}
+      <Element name="achievemnet" className="section ">
+        <motion.div className="achievement-container" initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
+          <h2>Achievemnets</h2>
+          <div className="timeline">
+            {achievements.map((exp, idx) => (
+              <motion.div className="timeline-card" key={idx} initial={{ x: -30, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: idx * 0.15 }}>
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
+                  <span className="period">{exp.period1}</span>
+                  <h3>{exp.role1} <span className="company"></span></h3>
+                  <div>{exp.description1}</div>
                 </div>
               </motion.div>
             ))}
