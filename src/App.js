@@ -243,7 +243,7 @@ function App() {
               <ScrollLink to="skills" smooth duration={500} className="nav-link" activeClass="active" spy>SKILLS</ScrollLink>
               <ScrollLink to="projects" smooth duration={500} className="nav-link" activeClass="active" spy>PROJECTS</ScrollLink>
               <ScrollLink to="experience" smooth duration={500} className="nav-link" activeClass="active" spy>EXPERIENCE</ScrollLink>
-              <ScrollLink to="achievement" smooth duration={500} className="nav-link" activeClass="active" spy>ACHIEVEMENT</ScrollLink>
+              <ScrollLink to="achievement" smooth duration={500} className="nav-link" activeClass="active" spy>ACHIEVEMENTS</ScrollLink>
               <ScrollLink to="certifications" smooth duration={500} className="nav-link" activeClass="active" spy>CERTIFICATIONS</ScrollLink>
               <ScrollLink to="codingprofiles" smooth duration={500} className="nav-link" activeClass="active" spy>CODING PROFILES</ScrollLink>
               <ScrollLink to="contact" smooth duration={500} className="nav-link" activeClass="active" spy>CONTACT</ScrollLink>
@@ -368,7 +368,7 @@ function App() {
       {/* Achievement Section */}
       <Element name="achievement" className="section ">
         <motion.div className="achievement-container" initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
-          <h2>Achievemnets</h2>
+          <h2>Achievements</h2>
           <div className="timeline">
             {achievements.map((exp, idx) => (
               <motion.div className="timeline-card" key={idx} initial={{ x: -30, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: idx * 0.15 }}>
