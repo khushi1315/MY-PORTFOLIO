@@ -243,6 +243,7 @@ function App() {
               <ScrollLink to="skills" smooth duration={500} className="nav-link" activeClass="active" spy>SKILLS</ScrollLink>
               <ScrollLink to="projects" smooth duration={500} className="nav-link" activeClass="active" spy>PROJECTS</ScrollLink>
               <ScrollLink to="experience" smooth duration={500} className="nav-link" activeClass="active" spy>EXPERIENCE</ScrollLink>
+              <ScrollLink to="achievement" smooth duration={500} className="nav-link" activeClass="active" spy>ACHIEVEMENT</ScrollLink>
               <ScrollLink to="certifications" smooth duration={500} className="nav-link" activeClass="active" spy>CERTIFICATIONS</ScrollLink>
               <ScrollLink to="codingprofiles" smooth duration={500} className="nav-link" activeClass="active" spy>CODING PROFILES</ScrollLink>
               <ScrollLink to="contact" smooth duration={500} className="nav-link" activeClass="active" spy>CONTACT</ScrollLink>
@@ -365,7 +366,7 @@ function App() {
         </motion.div>
       </Element>
       {/* Achievement Section */}
-      <Element name="achievemnet" className="section ">
+      <Element name="achievement" className="section ">
         <motion.div className="achievement-container" initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
           <h2>Achievemnets</h2>
           <div className="timeline">
