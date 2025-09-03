@@ -267,7 +267,7 @@ function App() {
             <h1>HI, I'M<br />KHUSHI</h1>
             <h2>Aspiring Front-end Developer & ML Enthusiast</h2>
             <p>
-              Hi, I’m Kat 👋 A third-year CSE-AI student at IGDTUW (graduating 2027). I love building clean, responsive web apps and exploring machine learning to solve real-world problems.
+              Hi, I’m Khushi 👋 A third-year CSE-AI student at IGDTUW (graduating 2027). I love building clean, responsive web apps and exploring machine learning to solve real-world problems.
             </p>
 
             <button
