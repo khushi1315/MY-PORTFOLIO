@@ -38,7 +38,7 @@ const projects = [
     date: " Nov 2025"
   },
   {
-    title: "Plagiarism Checker (Main Project)",
+    title: "Plagiarism Checker",
     category: "Web Development / AI",
     description: (
       <>
