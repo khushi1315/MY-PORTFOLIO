@@ -284,8 +284,7 @@ function App() {
             <h1>HI, I'M<br />KHUSHI</h1>
             <h2>Aspiring Front-end Developer & ML Enthusiast</h2>
             <p>
-              I’m a second-year Computer Science & AI student at IGDTUW, actively seeking a front-end development internship. <br />
-              I love building clean, responsive interfaces and recently worked on a fraud detection project while exploring machine learning.
+              Hi, I’m Khushi 👋 A third-year CSE-AI student at IGDTUW (graduating 2027). I love building clean, responsive web apps and exploring machine learning to solve real-world problems.
             </p>
 
             <button
@@ -323,15 +322,9 @@ function App() {
         >
           <h2>About Me</h2>
           <p>
-            Hi! I’m a second-year Computer Science and Artificial Intelligence (CSE-AI) student at IGDTUW, graduating in 2027. I’m deeply passionate about building real-world solutions using full-stack development, data structures, and machine learning.
-
-            Coming from a non-CS background, I had no exposure to coding initially — but with a strong will to learn, I picked up everything through online resources, guidance from seniors, and consistent practice. I believe in mastering one topic at a time and building confidence through depth, not shortcuts.
-
-            For example, while exploring Machine Learning, I realized that just training models wasn’t enough — so I started learning frontend and backend development to build complete, user-focused applications. This drive to “connect all the dots” keeps me motivated to learn and grow every day.
-
-            Outside of tech, I enjoy sketching — it’s taught me the value of patience, attention to detail, and creativity, which I carry into my code as well.
-
-            I'm always looking for opportunities to grow, collaborate, and take on challenges that help me become not just a better developer, but a better thinker.
+           Hi! I’m a third-year Computer Science and AI student at IGDTUW (graduating 2027), passionate about building real-world applications through full-stack development and machine learning.
+            I transitioned into coding from a non-CS background, driven purely by curiosity and consistent self-learning. Along the way, I’ve built projects like a fraud detection model (internship) and a Smart Inventory Manager (hackathon), while strengthening my skills in Java, Python, React, Flask, and SQL.
+            Outside of tech, I enjoy sketching, which sharpens my patience and creativity — qualities I carry into my code. I’m eager to take on opportunities that challenge me to grow as both a developer and a problem-solver.
 
           </p>
         </motion.div>
