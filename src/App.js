@@ -20,6 +20,23 @@ const skills = {
 };
 
 const projects = [
+  
+   {
+    title: "Movie Recommendation Web App",
+    category: "Web Development / ML",
+    description: (
+      <>
+        <ul>
+          <li>Built a movie recommendation web app that suggests similar movies based on fav genre, fav movie.</li>
+          <li>Integrated React frontend with Flask and Express.js backends to serve ML-based recommendations.</li>
+        </ul>
+      </>
+    ),
+    tools: ["React.js", "Flask", "Express.js"],
+    github: "https://github.com/khushi1315/RecommendMovie",
+    LiveSite: "https://recommendmovie-xs00.onrender.com/",
+    date: " Nov 2025"
+  },
   {
     title: "Plagiarism Checker (Main Project)",
     category: "Web Development / AI",
