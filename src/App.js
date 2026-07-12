@@ -116,6 +116,18 @@ const projects = [
         </ul>
       </>
     ),
+     tools: [
+    "React",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Chart.js"
+  ],
+  github: "https://github.com/khushi1315/udaan-sakhi-finance-main",
+  LiveSite: "https://udaan-sakhi-finance-main.onrender.com/",
+  date: "2025"
+},
   {
     title: "Fraud Detection ML Model",
     category: "Machine Learning",
