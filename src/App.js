@@ -31,7 +31,6 @@ const skills = {
 
   Databases: [
     "PostgreSQL",
-    "MongoDB",
     "Neo4j"
   ],
 
@@ -39,12 +38,35 @@ const skills = {
     "Git",
     "GitHub",
     "Docker",
-    "VS Code",
-    "Postman"
+    "VS Code"
   ]
 };
 
 const projects = [
+  {
+    title: "Smart Inventory Manager",
+    category: "Retail Analytics / Full Stack",
+    description: (
+      <>
+        <ul>
+          <li>Built a Flask-based inventory management system featuring store-wise EOQ calculation, demand forecasting dashboard, and inventory simulation.</li>
+
+          <li>Developed interactive dashboards for store analysis and integrated ML prediction outputs to support optimized inventory planning.</li>
+        </ul>
+      </>
+    ),
+    tools: [
+      "Flask",
+      "Python",
+      "Pandas",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    github: "...",
+    LiveSite: "...",
+    date: "July 2025"
+  },
 
   {
     title: "Movie Recommendation Web App",
@@ -52,8 +74,9 @@ const projects = [
     description: (
       <>
         <ul>
-          <li>Built a movie recommendation web app that suggests similar movies based on fav genre, fav movie.</li>
-          <li>Integrated React frontend with Flask and Express.js backends to serve ML-based recommendations.</li>
+          <li>Built a movie recommendation web application using React, Flask, and Express.js with personalized recommendations based on user preferences.</li>
+
+          <li>Integrated frontend and backend services to deliver real-time recommendation results through an interactive dashboard.</li>
         </ul>
       </>
     ),
@@ -78,55 +101,21 @@ const projects = [
     LiveSite: "https://khushi1315.github.io/plag-checker-app/",
     date: "May 2025"
   },
-  
+
   {
-    title: "Optimizing Retail Inventory – Multi-Agent System",
-    category: "Machine Learning",
-    description: (
-      <>
-        <ul>
-          <li>Developed EOQ-based inventory simulator with Flask backend.</li>
-          <li>Designed UI with store-wise filtering and visual dashboards.</li>
-          <li>Integrated stock alerts (Out of Stock, Low, Healthy) for quick insights.</li>
-          <li>Automated EOQ-based restocking using ML predictions.</li>
-          <li>Tech Stack: Python, Flask, HTML/CSS/JS, ML, Chart.js, Pandas, Scikit-learn, Git</li>
-          <li>LiveSite <a href="https://eoq-inventory-simulation.onrender.com/" target="_blank" rel="noopener noreferrer">here</a></li>
-        </ul>
-      </>
-    ),
-    tools: ["Python", "Flask", "ML", "Chart.js", "Pandas", "Scikit-learn"],
-    github: "https://github.com/khushi1315/EOQ_Inventory_simulation",
-    LiveSite: "https://eoq-inventory-simulation.onrender.com/",
-    date: "April 2025"
-  },
-  {
-    title: "Udaan Sakhi – Financial Management Platform",
+    title: "Udaan Sakhi – Financial Literacy Platform",
     category: "Full Stack Web Development",
     description: (
       <>
         <ul>
-          <li>Developed a financial management platform to help users monitor income, expenses, savings, and budgeting through an interactive dashboard.</li>
+          <li>Developed a full-stack financial literacy platform designed to help rural women manage income, expenses, savings, and monthly budgets.</li>
 
-          <li>Built responsive user interfaces with real-time financial insights, charts, and expense tracking.</li>
+          <li>Built responsive dashboards with secure authentication, expense tracking, and interactive financial insights to promote informed financial decision-making.</li>
 
-          <li>Implemented secure authentication and intuitive navigation for a seamless user experience.</li>
-
-          <li>Designed to promote financial awareness and smarter money management.</li>
+          <li>Designed an intuitive user experience focused on improving financial awareness and budgeting accessibility.</li>
         </ul>
       </>
     ),
-    tools: [
-      "React",
-      "JavaScript",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Chart.js"
-    ],
-    github: "https://github.com/khushi1315/Smart_Inventory_Manager",
-    LiveSite: "https://udaan-sakhi-finance-main.onrender.com/",
-    date: "2025"
-  },
   {
     title: "Fraud Detection ML Model",
     category: "Machine Learning",
@@ -159,9 +148,25 @@ const experience = [
 
           <li>Designed PostgreSQL schemas and implemented JWT authentication.</li>
 
-          <li>Developed multi-source academic paper ingestion pipelines integrating PubMed, OpenAlex, CrossRef, AYUSH, medRxiv and bioRxiv.</li>
+          <li>Built and automated a 24×7 academic paper ingestion pipeline integrating OpenAlex, PubMed, CrossRef, AYUSH Portal, medRxiv and bioRxiv with API pagination, normalization and duplicate handling.</li>
 
           <li>Configured Docker-based backend infrastructure supporting scalable research data ingestion.</li>
+        </ul>
+      </>
+    )
+  },
+  {
+    period: "June 2025 – July 2025",
+    role: "AI-powered Full-Stack Development Intern",
+    company: "Department of Artificial Intelligence & Data Sciences, IGDTUW",
+    description: (
+      <>
+        <ul>
+          <li>Developed a full-stack Movie Recommendation System using React.js, Express.js, and Flask, deployed on Render.</li>
+
+          <li>Implemented a user preference questionnaire and recommendation engine to generate personalized movie suggestions.</li>
+
+          <li>Designed responsive interfaces, integrated frontend and backend services, and built a movie catalog with rating functionality.</li>
         </ul>
       </>
     )
@@ -365,11 +370,11 @@ function App() {
           <h2>About Me</h2>
           <p>
             <p>
-              I'm a fourth-year B.Tech Computer Science (AI) student at IGDTUW passionate about software engineering, backend development, and AI-driven applications. Over the past few years, I've worked on full-stack web applications, machine learning systems, and large-scale research infrastructure.
+              Hi, I'm Khushi, a fourth-year Computer Science (AI) student at IGDTUW passionate about software engineering, backend development, AI-powered applications, and scalable systems.
 
-              Recently, I contributed to RECAP/KRITA, the Literature Evidence & RAG Platform developed under CCRAS, where I worked on backend infrastructure, PostgreSQL database design, Docker-based deployment, JWT authentication, and multi-source academic paper ingestion from platforms including PubMed, OpenAlex, CrossRef, and AYUSH.
+              I'm currently working as a Software Engineering Intern at CCRAS, where I contribute to RECAP/KRITA by building automated academic paper ingestion pipelines, designing PostgreSQL databases, implementing backend infrastructure, and working with technologies including FastAPI, pgvector, Neo4j, Docker, and Ollama.
 
-              I enjoy building products that solve practical problems—from optimizing retail inventory and financial management to AI-powered recommendation systems. I'm continuously learning modern backend technologies and enjoy collaborating in team environments while writing clean, scalable software.
+              I enjoy solving practical problems through software—from retail inventory optimization and financial literacy platforms to recommendation systems—and I'm continuously learning modern backend and AI technologies while preparing for software engineering roles.
             </p>
 
           </p>
