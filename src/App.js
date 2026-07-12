@@ -8,20 +8,45 @@ import { Link as ScrollLink } from "react-scroll";
 import { scroller } from "react-scroll";
 
 const skills = {
-  Languages: ["Python", "Java", "JavaScript"],
-  "Developer Tools": ["VS Code", "Jupyter Notebooks", "IntelliJ IDEA"],
-  "Web Development": ["HTML", "CSS", "JavaScript", "React"],
-  "Soft Skills": [
-    "Presentation Skills",
-    "Communication Skills",
-    "Event Promotion",
-    "Team Collaboration"
+  Languages: [
+    "Java",
+    "Python",
+    "JavaScript",
+    "SQL"
+  ],
+
+  Frontend: [
+    "React",
+    "HTML",
+    "CSS",
+    "Bootstrap"
+  ],
+
+  Backend: [
+    "FastAPI",
+    "Flask",
+    "Node.js",
+    "Express.js"
+  ],
+
+  Databases: [
+    "PostgreSQL",
+    "MongoDB",
+    "Neo4j"
+  ],
+
+  Tools: [
+    "Git",
+    "GitHub",
+    "Docker",
+    "VS Code",
+    "Postman"
   ]
 };
 
 const projects = [
-  
-   {
+
+  {
     title: "Movie Recommendation Web App",
     category: "Web Development / ML",
     description: (
@@ -53,38 +78,7 @@ const projects = [
     LiveSite: "https://khushi1315.github.io/plag-checker-app/",
     date: "May 2025"
   },
-  {
-    title: "TextUtils Web App",
-    category: "Web Development",
-    description: (
-      <>
-        <ul>
-          <li>Developed a text manipulation web app with features like uppercase, lowercase, title case, and clear text.</li>
-          <li>Integrated dark mode toggle for improved user experience.</li>
-        </ul>
-      </>
-    ),
-    tools: ["React", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/khushi1315/TEXTUTILS",
-    LiveSite: "https://textutils-20so.onrender.com/",
-    date: " April 2025"
-  },
-  {
-    title: "Gym Website",
-    category: "Web Development",
-    description: (
-      <>
-        <ul>
-          <li>Developed a responsive gym website under mentorship program by TechNeeds.</li>
-          <li>LiveSite <a href="https://khushi1315.github.io/GymWebsite/" target="_blank" rel="noopener noreferrer">here</a></li>
-        </ul>
-      </>
-    ),
-    tools: ["HTML", "CSS"],
-    github: "https://github.com/khushi1315/GymWebsite",
-    LiveSite: "https://khushi1315.github.io/GymWebsite/",
-    date: "January 2025"
-  },
+  
   {
     title: "Optimizing Retail Inventory – Multi-Agent System",
     category: "Machine Learning",
@@ -104,6 +98,34 @@ const projects = [
     github: "https://github.com/khushi1315/EOQ_Inventory_simulation",
     LiveSite: "https://eoq-inventory-simulation.onrender.com/",
     date: "April 2025"
+  },
+  {
+    title: "Udaan Sakhi – Financial Management Platform",
+    category: "Full Stack Web Development",
+    description: (
+      <>
+        <ul>
+          <li>Developed a financial management platform to help users monitor income, expenses, savings, and budgeting through an interactive dashboard.</li>
+
+          <li>Built responsive user interfaces with real-time financial insights, charts, and expense tracking.</li>
+
+          <li>Implemented secure authentication and intuitive navigation for a seamless user experience.</li>
+
+          <li>Designed to promote financial awareness and smarter money management.</li>
+        </ul>
+      </>
+    ),
+    tools: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Chart.js"
+    ],
+    github: "https://github.com/khushi1315/Smart_Inventory_Manager",
+    LiveSite: "https://udaan-sakhi-finance-main.onrender.com/",
+    date: "2025"
   },
   {
     title: "Fraud Detection ML Model",
@@ -127,6 +149,24 @@ const projects = [
 
 const experience = [
   {
+    period: "June 2026 – Present",
+    role: "Software Engineering Intern",
+    company: "CCRAS (Central Council for Research in Ayurvedic Sciences)",
+    description: (
+      <>
+        <ul>
+          <li>Contributed to RECAP/KRITA, a Literature Evidence & RAG Platform for scientific research.</li>
+
+          <li>Designed PostgreSQL schemas and implemented JWT authentication.</li>
+
+          <li>Developed multi-source academic paper ingestion pipelines integrating PubMed, OpenAlex, CrossRef, AYUSH, medRxiv and bioRxiv.</li>
+
+          <li>Configured Docker-based backend infrastructure supporting scalable research data ingestion.</li>
+        </ul>
+      </>
+    )
+  },
+  {
     period: "April 2025 – Present",
     role: "Python and Machine Learning Intern",
     company: "Centre of Excellence- AI, IGDTUW",
@@ -143,7 +183,7 @@ const achievements = [
   {
     period1: "Oct 2024",
     role1: "GirlScript Summer of Code 2024 Contributor",
-  
+
     description1: (
       <>
         <ul>
@@ -282,9 +322,11 @@ function App() {
         >
           <div className="intro">
             <h1>HI, I'M<br />KHUSHI</h1>
-            <h2>Aspiring Front-end Developer & ML Enthusiast</h2>
+            <h2>Software Engineer | Full-Stack Developer | AI & Backend Enthusiast</h2>
             <p>
-              Hi, I’m Khushi 👋 A third-year CSE-AI student at IGDTUW (graduating 2027). I love building clean, responsive web apps and exploring machine learning to solve real-world problems.
+              <p>
+                Hi, I'm Khushi 👋 A fourth-year Computer Science (AI) student at IGDTUW with experience building full-stack applications, backend systems, and AI-powered solutions. I enjoy solving real-world problems through scalable software, from research intelligence platforms to inventory optimization and fintech applications.
+              </p>
             </p>
 
             <button
@@ -322,9 +364,13 @@ function App() {
         >
           <h2>About Me</h2>
           <p>
-           Hi! I’m a third-year Computer Science and AI student at IGDTUW (graduating 2027), passionate about building real-world applications through full-stack development and machine learning.
-            I transitioned into coding from a non-CS background, driven purely by curiosity and consistent self-learning. Along the way, I’ve built projects like a fraud detection model (internship) and a Smart Inventory Manager (hackathon), while strengthening my skills in Java, Python, React, Flask, and SQL.
-            Outside of tech, I enjoy sketching, which sharpens my patience and creativity — qualities I carry into my code. I’m eager to take on opportunities that challenge me to grow as both a developer and a problem-solver.
+            <p>
+              I'm a fourth-year B.Tech Computer Science (AI) student at IGDTUW passionate about software engineering, backend development, and AI-driven applications. Over the past few years, I've worked on full-stack web applications, machine learning systems, and large-scale research infrastructure.
+
+              Recently, I contributed to RECAP/KRITA, the Literature Evidence & RAG Platform developed under CCRAS, where I worked on backend infrastructure, PostgreSQL database design, Docker-based deployment, JWT authentication, and multi-source academic paper ingestion from platforms including PubMed, OpenAlex, CrossRef, and AYUSH.
+
+              I enjoy building products that solve practical problems—from optimizing retail inventory and financial management to AI-powered recommendation systems. I'm continuously learning modern backend technologies and enjoy collaborating in team environments while writing clean, scalable software.
+            </p>
 
           </p>
         </motion.div>
